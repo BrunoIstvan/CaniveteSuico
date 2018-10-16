@@ -1,4 +1,4 @@
-// apply plugin: 'com.android.application' - comentar essa linha e criar uma com.android.library
+// apply plugin: 'com.android.application' - comentar essa linha e criar uma linha com com.android.library
 apply plugin: 'com.android.library'
 
 apply plugin: 'kotlin-android'
@@ -6,6 +6,8 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 apply plugin: 'maven' // incluir o plugin do maven
+apply plugin: 'com.github.dcendents.android-maven' // incluir essa linha
+group = 'com.github.brunoistvan' // incluir essa linha
 
 android {
     compileSdkVersion 28
